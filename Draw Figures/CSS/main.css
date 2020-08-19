@@ -1,0 +1,36 @@
+body{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+p
+{
+	font-size: 20px;
+}
+.textarea
+{
+	display: block;
+	margin-top: 5px;
+	border: 1px solid black;
+	resize: none;
+}
+.error{
+	font-size: 13px;
+	color: red;
+	visibility: hidden;
+}
+
+#canv{
+	border: 1px solid black;
+	margin: 5px;
+}
+
+#bt{
+	width: 100px;
+	height: 30px;
+	background-color: dodgerBlue;
+	border: 1px solid black;
+}
