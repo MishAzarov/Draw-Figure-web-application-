@@ -14,6 +14,6 @@
 		<span id="er" class="error">Описание фигур введено неверно</span>
 	</div>
 	<canvas id="canv" width="560" height="300"></canvas><br>
-	<button id="bt" onclick="cl()">Нарисовать</button>
+	<button id="bt" onclick="controller.clickBut()">Нарисовать</button>
 </body>
 </html>
